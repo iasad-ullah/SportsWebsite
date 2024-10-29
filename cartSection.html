@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Section Page</title>
+  <link rel="stylesheet" href="font awesome/css/all.min.css" />
+  <link rel="stylesheet" href="font awesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="Poppins/Poppins-Black.ttf" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logoSection">
+      <a href="index.html"><img src="images/logo.png" alt="ProSportsX" class="logo"></a>
+    </div>
+
+    <nav class="navLinks" id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Account</a></li>
+      </ul>
+    </nav>
+
+    <div class="iconSection">
+      <div class="cartIcon">
+        <a href="cartSection.html"><i class="fa-solid fa-shopping-cart cart"></i></a>
+      <div class="cartContent">
+        0
+      </div>
+      </div>
+      
+      <i class="fa-solid fa-bars bars"></i>
+    </div>
+   </header>
+
+   <main>
+     <h1 class="shoppingTitle">Shopping Cart</h1>
+    <div class="container">
+      
+      <!-- Cart Items -->
+      <div class="cart-items">
+          <div class="cart-item">
+              <img src="images/bat.jpg" alt="Product Image">
+              <div class="item-details">
+                  <h2>Product Name 1</h2>
+                  <p>Price: $39.99</p>
+                  <label>Quantity: </label>
+                  <input type="number" value="1" min="1">
+              </div>
+              <button class="remove-btn">Remove</button>
+          </div>
+  
+      </div>
+  
+      <!-- Summary Section -->
+      <div class="summary">
+          <h3>Order Summary</h3>
+          <div class="summary-item">
+              <span>Subtotal</span>
+              <span>$39.99</span>
+          </div>
+          <div class="summary-item">
+              <span>Shipping</span>
+              <span>$5.00</span>
+          </div>
+          <div class="summary-item total">
+              <span>Total</span>
+              <span>$44.99</span>
+          </div>
+          <button class="checkout-btn">Place Order</button>
+      </div>
+  </div>
+   </main>
+
+   <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>We provide high-quality sports <br>products to meet your needs.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Account</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ProSportsX. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
